@@ -1,0 +1,80 @@
+
+---Downloaded files---
+The import files for: Modern - Elementor were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://preview.ariawp.com/realhomes-modern
+Data file = /home/u570027843/domains/ariawp.com/public_html/preview/wp-content/plugins/realhomes-demo-import/demos/elementor-modern/contents.xml
+Widget file = /home/u570027843/domains/ariawp.com/public_html/preview/wp-content/plugins/realhomes-demo-import/demos/elementor-modern/widgets.wie
+Customizer file = /home/u570027843/domains/ariawp.com/public_html/preview/wp-content/plugins/realhomes-demo-import/demos/elementor-modern/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+سایدبار پیشفرض : 
+
+RealHomes - نمایندگان - No Title - Imported
+املاک ویژه - Featured Properties - Imported
+جستجو - No Title - Widget already exists
+دسته‌ها - No Title - Imported
+
+سایدبار صفحات : 
+
+RealHomes - نمایندگان - No Title - Imported
+املاک ویژه - Featured Properties - Imported
+
+سایدبار صفحه ملک : 
+
+املاک ویژه - Featured Properties - Imported
+
+سایدبار برگه های املاک : 
+
+RealHomes - نمایندگان - No Title - Imported
+انواع ملک - Property Types - Imported
+املاک ویژه - Featured Properties - Imported
+
+اولین ستون پاورقی : 
+
+فهرست راهبری - Quick Links - Imported
+
+دومین ستون پاورقی : 
+
+انواع ملک - No Title - Imported
+
+سومین ستون پاورقی : 
+
+ابر برچسب - No Title - Imported
+
+سایدبار نماینده : 
+
+پوسته - املاک ویژه نماینده - Featured Properties - Imported
+انواع ملک - No Title - Imported
+
+سایدبار آژانس : 
+
+املاک ویژه - Featured Properties - Imported
+انواع ملک - Property Types - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

@@ -1,0 +1,20 @@
+[Mar 12 12:17:31] 
+[Mar 12 12:17:31] ==DUPLICATOR INSTALLER BOOTSTRAP v1.4.3==
+[Mar 12 12:17:31] ----------------------------------------------------
+[Mar 12 12:17:31] Installer bootstrap start
+[Mar 12 12:17:31] Manual extract found so not going to extract dup-installer dir
+[Mar 12 12:17:31] ERROR: Didn't need to extract the installer.
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/assets<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/classes<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/ctrls<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/favicon<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/lib<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/views<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/dup-archive__[HASH].txt<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/dup-database__[HASH].sql<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/dup-scan__[HASH].json<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/index.php<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/main.installer.php<br/>
+[Mar 12 12:17:31] Set permissions of C:/xampp/htdocs/test1/dup-installer/php_error__[HASH].log<br/>
+[Mar 12 12:17:31] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://127.0.0.1/test1/dup-installer/main.installer.php

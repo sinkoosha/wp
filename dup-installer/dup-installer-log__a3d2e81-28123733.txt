@@ -1,0 +1,408 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:17:47
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.16                                |7.4.15
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-10-28 12:37:33
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.3
+DB__________________: 10.5.12
+DB TABLES___________: 14
+DB ROWS_____________: 5,495
+DB FILE SIZE________: 19.84MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.15 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.15
+DOC ROOT____________: "C:/xampp/htdocs/test1"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://127.0.0.1/test1/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/test1/realhomes_modern_ariawp_[HASH]_20211028123733_archive.zip"
+
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 12:17:47 - RUNTIME: 0.0095 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:19:58
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.13 -- Build Server: 10.5.12
+FILE SIZE:	dup-database__[HASH].sql (15.03MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/test1/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [10.4.13] is less than the build version [10.5.12].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	147
+
+wp_commentmeta: (1)
+wp_comments: (2)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (708)
+wp_postmeta: (2818)
+wp_posts: (349)
+wp_realhomes_saved_searches: (0)
+wp_term_relationships: (134)
+wp_term_taxonomy: (52)
+wp_termmeta: (0)
+wp_terms: (52)
+wp_usermeta: (1461)
+wp_users: (1)
+Removed '29' cache/transient rows
+
+INSERT DATA RUNTIME: 2.6018 sec.
+STEP-2 COMPLETE @ 12:20:00 - RUNTIME: 2.6184 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:20:59
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "دمو مدرن ریل هوم"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/u570027843/domains/ariawp.com/public_html/test/realhomes"
+path_new______________: "C:/xampp/htdocs/test1"
+siteurl_______________: "http://127.0.0.1/test1"
+url_old_______________: "https://test.ariawp.com/realhomes"
+url_new_______________: "http://127.0.0.1/test1"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "sinkoosha@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   708][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2818][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   349][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_realhomes_saved_searches"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   134][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    52][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    52][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:  1461][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/u570027843/domains/ariawp.com/public_html/test/realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  2:"\/home\/u570027843\/domains\/ariawp.com\/public_html\/test\/realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  3:"%2Fhome%2Fu570027843%2Fdomains%2Fariawp.com%2Fpublic_html%2Ftest%2Frealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  4:"\home\u570027843\domains\ariawp.com\public_html\test\realhomes" => "C:/xampp/htdocs/test1"
+	SEARCH  5:"\\home\\u570027843\\domains\\ariawp.com\\public_html\\test\\realhomes" => "C:\/xampp\/htdocs\/test1"
+	SEARCH  6:"%5Chome%5Cu570027843%5Cdomains%5Cariawp.com%5Cpublic_html%5Ctest%5Crealhomes" => "C%3A%2Fxampp%2Fhtdocs%2Ftest1"
+	SEARCH  7:"//test.ariawp.com/realhomes" =====================> "//127.0.0.1/test1"
+	SEARCH  8:"\/\/test.ariawp.com\/realhomes" ==================> "\/\/127.0.0.1\/test1"
+	SEARCH  9:"%2F%2Ftest.ariawp.com%2Frealhomes" ===============> "%2F%2F127.0.0.1%2Ftest1"
+	SEARCH 10:"https://127.0.0.1/test1" =========================> "http://127.0.0.1/test1"
+	SEARCH 11:"https:\/\/127.0.0.1\/test1" ======================> "http:\/\/127.0.0.1\/test1"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Ftest1" =================> "http%3A%2F%2F127.0.0.1%2Ftest1"
+--------------------------------------
+SCANNED:	Tables:14 	|	 Rows:5578 	|	 Cells:28943 
+UPDATED:	Tables:2 	|	 Rows:4 	|	 Cells:4 
+ERRORS:		0 
+RUNTIME:	1.072900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'sina' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:21:00 - RUNTIME: 1.1819 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
