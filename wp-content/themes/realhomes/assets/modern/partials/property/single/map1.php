@@ -6,8 +6,7 @@
  * @subpackage modern
  */
 
-$display_map   = get_option( 'theme_display_google_map' );
-if ( 'true' === $display_map ) {
+
 	$property_location = get_post_meta( get_the_ID(), 'REAL_HOMES_property_location', true );
 	$property_address  = get_post_meta( get_the_ID(), 'REAL_HOMES_property_address', true );
 	$hide_property_map      = get_post_meta( get_the_ID(), 'REAL_HOMES_property_map', true );
@@ -25,4 +24,5 @@ if ( 'true' === $display_map ) {
 		</div>
 		<?php
 	}
-}
+
+ //این فایلو جدید ساختمmap1.php

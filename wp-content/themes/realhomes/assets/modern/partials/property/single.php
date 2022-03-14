@@ -259,11 +259,15 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
 
                                 <div class="rh_property__sidebar">
 									<?php
+
 									if ( 'agent-in-sidebar' === $theme_property_detail_variation ) {
+
 										?>
                                         <aside class="rh_sidebar">
+
 											<?php
 											get_template_part( 'assets/modern/partials/property/single/agent-for-sidebar' );
+                                            get_template_part( 'assets/modern/partials/property/single/map1 '  );  //اینو اینجا ادد کردم
 
 											if ( is_active_sidebar( 'property-sidebar' ) ) {
 												dynamic_sidebar( 'property-sidebar' );

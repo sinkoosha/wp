@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42cdc664-be4d-4ea5-9f8c-2ba699a4de09" name="Default Changelist" comment="" />
+    <list default="true" id="42cdc664-be4d-4ea5-9f8c-2ba699a4de09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map1.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map1.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +18,20 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="26L2iPUkHX4tyD5YiH6owNQasWG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\test1\wp-content\themes\realhomes\assets\modern\partials\property\single" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,12 +55,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647205111590</updated>
-      <workItem from="1647205117136" duration="4785000" />
+      <workItem from="1647205117136" duration="12512000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -53,6 +80,11 @@
           <url>file://$PROJECT_DIR$/wp-content/themes/realhomes/functions.php</url>
           <line>750</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php</url>
+          <line>135</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
