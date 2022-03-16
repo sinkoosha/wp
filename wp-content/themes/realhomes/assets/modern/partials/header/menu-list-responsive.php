@@ -1,6 +1,6 @@
 <div class="rh_menu__hamburger hamburger hamburger--squeeze">
 	<div class="hamburger-box">
-		<div class="hamburger-inner"></div>
+		<div class="hamburger-inner">021</div>
 	</div>
 </div>
 <?php

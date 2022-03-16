@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42cdc664-be4d-4ea5-9f8c-2ba699a4de09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/header/menu-list-responsive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/header/menu-list-responsive.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map1.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/styles/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/styles/css/custom.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +59,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647205111590</updated>
-      <workItem from="1647205117136" duration="12512000" />
+      <workItem from="1647205117136" duration="13802000" />
+      <workItem from="1647254390015" duration="2768000" />
+      <workItem from="1647434202982" duration="5892000" />
     </task>
     <servers />
   </component>
@@ -67,7 +73,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -82,9 +90,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php</url>
-          <line>135</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/price.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

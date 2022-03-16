@@ -6,7 +6,7 @@
  * @subpackage modern
  */
 
-$display_map   = false;  //این گذاشتم فالس
+$display_map   = false;
 if ( 'true' === $display_map ) {
 	$property_location = get_post_meta( get_the_ID(), 'REAL_HOMES_property_location', true );
 	$property_address  = get_post_meta( get_the_ID(), 'REAL_HOMES_property_address', true );

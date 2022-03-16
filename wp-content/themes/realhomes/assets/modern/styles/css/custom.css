@@ -1,1 +1,11 @@
 /* Custom CSS File for Buyers to Modify */
+.rh_property__row.rh_property__meta_wrap .rh_svg{
+    width: 20px
+}
+@media (min-width: 1280px) {
+    .rh_page__property .rh_page__property_price {
+        padding: 0 0 0 2rem;
+        border-left: 1px solid rgba(128, 128, 128, 0.2);
+        text-align: right !important;
+    }
+}

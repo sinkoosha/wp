@@ -94,7 +94,7 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
 
                     <div class="rh_page rh_page--fullWidth">
 
-						<?php get_template_part( 'assets/modern/partials/property/single/head' ); ?>
+<!--						--><?php //get_template_part( 'assets/modern/partials/property/single/head' ); ?>
 
                         <div class="rh_property">
 							<?php
@@ -130,97 +130,102 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
 											$inspiry_print_property_label = get_option( 'inspiry_print_property_label' );
 											?>
                                             <div class="rh_property__row rh_property__meta rh_property--borderBottom">
+                                                <?php get_template_part( 'assets/modern/partials/property/single/price' );
+                                                get_template_part( 'assets/modern/partials/property/single/meta' );
 
-                                                <div class="rh_property__id">
-                                                    <p class="title">
-														<?php if ( $prop_id_field_label ) {
-															echo esc_html( $prop_id_field_label );
-														} else {
-															esc_html_e( 'Property ID', 'framework' );
-														} ?>
-                                                        :</p>
-													<?php if ( ! empty( $property_id ) ) { ?>
-                                                        <p class="id">&nbsp;<?php echo esc_html( $property_id ); ?></p>
-													<?php } else { ?>
-                                                        <p class="id">
-                                                            &nbsp;<?php esc_html_e( 'None', 'framework' ); ?></p>
-													<?php } ?>
-                                                </div>
 
-                                                <div class="rh_property__print">
-													<?php if ( 'true' === $display_social_share ) : ?>
-                                                        <a href="#" class="share" id="social-share">
-															<?php inspiry_safe_include_svg( '/images/icons/icon-share-2.svg' ); ?>
-                                                            <div class="rh_tooltip">
-                                                                <p class="label">
-																	<?php
-																	if ( $inspiry_share_property_label ) {
-																		echo esc_html( $inspiry_share_property_label );
-																	} else {
-																		esc_html_e( 'Share', 'framework' );
-																	}
-																	?>
-                                                                </p>
-                                                            </div>
-                                                        </a>
-                                                        <div class="share-this"
-                                                             data-check-mobile="<?php if ( wp_is_mobile() ) {
-															     echo esc_html( 'mobile' );
-														     } ?>" data-property-name="<?php the_title(); ?>"
-                                                             data-property-permalink="<?php the_permalink(); ?>">
-                                                        </div>
-													<?php endif; ?>
+                                                ?>
+<!--                                                <div class="rh_property__id">-->
+<!--                                                    <p class="title">-->
+<!--														--><?php //if ( $prop_id_field_label ) {
+//															echo esc_html( $prop_id_field_label );
+//														} else {
+//															esc_html_e( 'Property ID', 'framework' );
+//														} ?>
+<!--                                                        :</p>-->
+<!--													--><?php //if ( ! empty( $property_id ) ) { ?>
+<!--                                                        <p class="id">&nbsp;--><?php //echo esc_html( $property_id ); ?><!--</p>-->
+<!--													--><?php //} else { ?>
+<!--                                                        <p class="id">-->
+<!--                                                            &nbsp;--><?php //esc_html_e( 'None', 'framework' ); ?><!--</p>-->
+<!--													--><?php //} ?>
+<!--                                                </div>-->
+<!---->
+<!--                                                <div class="rh_property__print">-->
+<!--													--><?php //if ( 'true' === $display_social_share ) : ?>
+<!--                                                        <a href="#" class="share" id="social-share">-->
+<!--															--><?php //inspiry_safe_include_svg( '/images/icons/icon-share-2.svg' ); ?>
+<!--                                                            <div class="rh_tooltip">-->
+<!--                                                                <p class="label">-->
+<!--																	--><?php
+//																	if ( $inspiry_share_property_label ) {
+//																		echo esc_html( $inspiry_share_property_label );
+//																	} else {
+//																		esc_html_e( 'Share', 'framework' );
+//																	}
+//																	?>
+<!--                                                                </p>-->
+<!--                                                            </div>-->
+<!--                                                        </a>-->
+<!--                                                        <div class="share-this"-->
+<!--                                                             data-check-mobile="--><?php //if ( wp_is_mobile() ) {
+//															     echo esc_html( 'mobile' );
+//														     } ?><!--" data-property-name="--><?php //the_title(); ?><!--"-->
+<!--                                                             data-property-permalink="--><?php //the_permalink(); ?><!--">-->
+<!--                                                        </div>-->
+<!--													--><?php //endif; ?>
+<!---->
+<!--													--><?php
+//													// Display add to favorite button.
+//													inspiry_favorite_button( get_the_ID(), true );
+//
+//													$compare_properties_module = get_option( 'theme_compare_properties_module' );
+//													$inspiry_compare_page      = get_option( 'inspiry_compare_page' );
+//													if ( ( 'enable' === $compare_properties_module ) && ( $inspiry_compare_page ) ) {
+//														$property_id      = get_the_ID();
+//														$property_img_url = get_the_post_thumbnail_url( $property_id, 'property-thumb-image' );
+//														if ( empty( $property_img_url ) ) {
+//															$property_img_url = get_inspiry_image_placeholder_url( 'property-thumb-image' );
+//														}
+//														?>
+<!--                                                        <span class="rh_single_compare_button add-to-compare-span compare-btn---><?php //echo esc_attr( $property_id ); ?><!--"-->
+<!--                                                              data-property-id="--><?php //echo esc_attr( $property_id ); ?><!--"-->
+<!--                                                              data-property-title="--><?php //echo esc_attr( get_the_title( $property_id ) ); ?><!--"-->
+<!--                                                              data-property-url="--><?php //echo esc_url( get_the_permalink( $property_id ) ); ?><!--"-->
+<!--                                                              data-property-image="--><?php //echo esc_url( $property_img_url ); ?><!--"-->
+<!--                                                        >-->
+<!--															<span class="compare-placeholder highlight hide" data-tooltip="--><?php //esc_attr_e( 'Added to compare', 'framework' ); ?><!--">-->
+<!--																--><?php //inspiry_safe_include_svg( '/images/icons/icon-compare.svg' ); ?>
+<!--															</span>-->
+<!--															<a class="rh_trigger_compare add-to-compare" data-tooltip="--><?php //esc_attr_e( 'Add to compare', 'framework' ); ?><!--" href="--><?php //echo esc_url( get_the_permalink( $property_id ) ); ?><!--">-->
+<!--																--><?php //inspiry_safe_include_svg( '/images/icons/icon-compare.svg' ); ?>
+<!--															</a>-->
+<!--														</span>-->
+<!--														--><?php
+//													}
+//													?>
+<!---->
+<!--                                                    <a href="javascript:window.print()" class="print">-->
+<!--														--><?php //inspiry_safe_include_svg( '/images/icons/icon-printer.svg' ); ?>
+<!--                                                        <div class="rh_tooltip">-->
+<!--                                                            <p class="label">-->
+<!--																--><?php
+//																if ( $inspiry_print_property_label ) {
+//																	echo esc_html( $inspiry_print_property_label );
+//																} else {
+//																	esc_html_e( 'Print', 'framework' );
+//																}
+//																?>
+<!--                                                            </p>-->
+<!--                                                        </div>-->
+<!--                                                    </a>-->
+<!--                                                </div>-->
 
-													<?php
-													// Display add to favorite button.
-													inspiry_favorite_button( get_the_ID(), true );
-
-													$compare_properties_module = get_option( 'theme_compare_properties_module' );
-													$inspiry_compare_page      = get_option( 'inspiry_compare_page' );
-													if ( ( 'enable' === $compare_properties_module ) && ( $inspiry_compare_page ) ) {
-														$property_id      = get_the_ID();
-														$property_img_url = get_the_post_thumbnail_url( $property_id, 'property-thumb-image' );
-														if ( empty( $property_img_url ) ) {
-															$property_img_url = get_inspiry_image_placeholder_url( 'property-thumb-image' );
-														}
-														?>
-                                                        <span class="rh_single_compare_button add-to-compare-span compare-btn-<?php echo esc_attr( $property_id ); ?>"
-                                                              data-property-id="<?php echo esc_attr( $property_id ); ?>"
-                                                              data-property-title="<?php echo esc_attr( get_the_title( $property_id ) ); ?>"
-                                                              data-property-url="<?php echo esc_url( get_the_permalink( $property_id ) ); ?>"
-                                                              data-property-image="<?php echo esc_url( $property_img_url ); ?>"
-                                                        >
-															<span class="compare-placeholder highlight hide" data-tooltip="<?php esc_attr_e( 'Added to compare', 'framework' ); ?>">
-																<?php inspiry_safe_include_svg( '/images/icons/icon-compare.svg' ); ?>
-															</span>
-															<a class="rh_trigger_compare add-to-compare" data-tooltip="<?php esc_attr_e( 'Add to compare', 'framework' ); ?>" href="<?php echo esc_url( get_the_permalink( $property_id ) ); ?>">
-																<?php inspiry_safe_include_svg( '/images/icons/icon-compare.svg' ); ?>
-															</a>
-														</span>
-														<?php
-													}
-													?>
-
-                                                    <a href="javascript:window.print()" class="print">
-														<?php inspiry_safe_include_svg( '/images/icons/icon-printer.svg' ); ?>
-                                                        <div class="rh_tooltip">
-                                                            <p class="label">
-																<?php
-																if ( $inspiry_print_property_label ) {
-																	echo esc_html( $inspiry_print_property_label );
-																} else {
-																	esc_html_e( 'Print', 'framework' );
-																}
-																?>
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
                                             </div>
 
 											<?php
 											// Property meta information.
-											get_template_part( 'assets/modern/partials/property/single/meta' );
+
 											// Display sections according to their order.
 											if ( ! empty( $property_sections_order ) && is_array( $property_sections_order ) ) {
 												foreach ( $property_sections_order as $section ) {
@@ -267,7 +272,7 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
 
 											<?php
 											get_template_part( 'assets/modern/partials/property/single/agent-for-sidebar' );
-                                            get_template_part( 'assets/modern/partials/property/single/map1 '  );  //اینو اینجا ادد کردم
+                                            get_template_part( 'assets/modern/partials/property/single/map1'  );
 
 											if ( is_active_sidebar( 'property-sidebar' ) ) {
 												dynamic_sidebar( 'property-sidebar' );
