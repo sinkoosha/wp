@@ -500,13 +500,13 @@ pre { margin-bottom: 2rem; line-height: 1.5; }
 
 @media (max-width: 1139px) { .rh_temp_header_responsive_view { display: block; } }
 
-.rh_header { position: absolute; top: 0; width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: 9999999999; }
+.rh_header {   width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: 9999999999; }
 
 .rh_header .rh_header__wrap { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin: 0 auto; padding: 0; position: relative; }
 
 @media (max-width: 767px) { .rh_header .rh_header__wrap { display: block; } }
 
-@media (min-width: 768px) { .rh_header .rh_header__wrap { max-width: 1270px; padding: 1.5rem; } }
+@media (min-width: 768px) { .rh_header .rh_header__wrap { max-width: 1270px; padding: 1.5rem; margin-bottom: 100px;  } }
 
 @media (min-width: 1140px) { .rh_header .rh_header__wrap { padding-top: 2.5rem; padding-bottom: 2.5rem; } }
 
@@ -596,7 +596,7 @@ pre { margin-bottom: 2rem; line-height: 1.5; }
 
 .rh_header_var_1 ul.rh_menu__main li:hover { background-color: #ea723d; }
 
-.rh_header_var_1 ul.rh_menu__main li a { color: #fff; line-height: 2.4rem; padding: 1.3rem 1.7rem; text-decoration: none; -webkit-transition: 0.2s all linear; transition: 0.2s all linear; }
+.rh_header_var_1 ul.rh_menu__main li a { color: black; line-height: 2.4rem; padding: 1.3rem 1.7rem; text-decoration: none; -webkit-transition: 0.2s all linear; transition: 0.2s all linear; }
 
 .rh_header_var_1 ul.rh_menu__main li a:hover { background: #ea723d; -webkit-transition: 0.2s all linear; transition: 0.2s all linear; }
 
@@ -5710,7 +5710,13 @@ div.rh_added_sty span { line-height: 18px; color: #333333; display: inline-block
 
 .property-current-price { display: inline-block; text-decoration: none; }
 
-.property-old-price { display: inline-block; text-decoration: line-through; font-size: 70%; vertical-align: 3px; }
+.property-old-price {
+  display: inline-block;
+
+  font-size: 70%;
+  vertical-align: 3px;
+  display: block;
+}
 
 .rh_page__favorites { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 -1.5rem; }
 

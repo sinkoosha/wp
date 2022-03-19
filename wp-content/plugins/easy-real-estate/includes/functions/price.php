@@ -76,7 +76,7 @@ if ( ! function_exists( 'ere_property_sale_price' ) ) {
 	function ere_property_sale_price( $current_price, $old_price ) {
 
 		if ( ! empty( $current_price ) && ! empty( $old_price ) ) {
-			return sprintf( '<span class="property-price-wrapper"><ins class="property-current-price">%s</ins> <del class="property-old-price">%s</del></span>', $current_price, $old_price );
+			return sprintf( '<span class="property-price-wrapper"><ins class="property-current-price">%s</ins> <span class="property-old-price">قیمت رهن %s</span></span>', $current_price, $old_price );
 		}
 
 		return $current_price;
@@ -167,47 +167,47 @@ if ( ! function_exists( 'ere_get_property_price' ) ) {
 	}
 }
 
-if ( ! function_exists( 'ere_get_property_price_plain' ) ) {
-	/**
-	 * Returns property price in configured format without prefix and postfix.
-	 *
-	 * @param int $property_id Property ID to get price for.
-	 * @param bool $show_old_price
-	 *
-	 * @return string
-	 */
-	function ere_get_property_price_plain( $property_id = 0, $show_old_price = false ) {
-
-		// Set property ID if it's not given.
-		if ( empty( $property_id ) ) {
-			$property_id = get_the_ID();
-		}
-
-		// Get property price.
-		$amount = floatval( get_post_meta( $property_id, 'REAL_HOMES_property_price', true ) );
-
-		// Return no price text if price is empty.
-		if ( empty( $amount ) || is_nan( $amount ) ) {
-			return ere_no_price_text();
-		}
-
-		$price = ere_format_amount( $amount );
-
-		/**
-		 * Filter condition to show property current and old price for all or specific properties.
-		 *
-		 * @since 0.6.0
-		 *
-		 * @param bool $show_old_price Current boolean. False by default.
-		 * @param int $property_id Current property id.
-		 */
-		if ( true === apply_filters( 'ere_show_properties_old_price', $show_old_price, $property_id ) ) {
-			$price = ere_property_sale_price( $price, ere_get_property_old_price() );
-		}
-
-		return $price;
-	}
-}
+//if ( ! function_exists( 'ere_get_property_price_plain' ) ) {
+//	/**
+//	 * Returns property price in configured format without prefix and postfix.
+//	 *
+//	 * @param int $property_id Property ID to get price for.
+//	 * @param bool $show_old_price
+//	 *
+//	 * @return string
+//	 */
+//	function ere_get_property_price_plain( $property_id = 0, $show_old_price = false ) {
+//
+//		// Set property ID if it's not given.
+//		if ( empty( $property_id ) ) {
+//			$property_id = get_the_ID();
+//		}
+//
+//		// Get property price.
+//		$amount = floatval( get_post_meta( $property_id, 'REAL_HOMES_property_price', true ) );
+//
+//		// Return no price text if price is empty.
+//		if ( empty( $amount ) || is_nan( $amount ) ) {
+//			return ere_no_price_text();
+//		}
+//
+//		$price = ere_format_amount( $amount );
+//
+//		/**
+//		 * Filter condition to show property current and old price for all or specific properties.
+//		 *
+//		 * @since 0.6.0
+//		 *
+//		 * @param bool $show_old_price Current boolean. False by default.
+//		 * @param int $property_id Current property id.
+//		 */
+//		if ( true === apply_filters( 'ere_show_properties_old_price', $show_old_price, $property_id ) ) {
+//			$price = ere_property_sale_price( $price, ere_get_property_old_price() );
+//		}
+//
+//		return $price;
+//	}
+//}
 
 if ( ! function_exists( 'ere_property_price' ) ) {
 	/**

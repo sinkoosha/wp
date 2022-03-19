@@ -23,14 +23,7 @@ if ( empty( $header_variation ) || ( 'none' === $header_variation ) ) {
 		$property_banner_image_url = get_default_banner();
 	}
 	?>
-    <section class="rh_banner rh_banner__image" style="background-image: url('<?php echo esc_url( $property_banner_image_url ); ?>');">
-        <div class="rh_banner__cover"></div>
-		<?php if ( 'true' === get_option( 'inspiry_single_property_banner_title', 'true' ) ) : ?>
-            <div class="rh_banner__wrap">
-                <h2 class="rh_banner__title"><?php echo esc_html( get_the_title() ); ?></h2>
-            </div>
-		<?php endif; ?>
-    </section>
+
 	<?php
 }
 
@@ -271,8 +264,9 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
                                         <aside class="rh_sidebar">
 
 											<?php
-											get_template_part( 'assets/modern/partials/property/single/agent-for-sidebar' );
                                             get_template_part( 'assets/modern/partials/property/single/map1'  );
+											get_template_part( 'assets/modern/partials/property/single/agent-for-sidebar' );
+
 
 											if ( is_active_sidebar( 'property-sidebar' ) ) {
 												dynamic_sidebar( 'property-sidebar' );

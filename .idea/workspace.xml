@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42cdc664-be4d-4ea5-9f8c-2ba699a4de09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/price.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/header/menu-list-responsive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/header/menu-list-responsive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/easy-real-estate/includes/functions/price.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/easy-real-estate/includes/functions/price.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map1.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/partials/property/single/map1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/styles/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/styles/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/styles/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/realhomes/assets/modern/styles/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +57,8 @@
       <updated>1647205111590</updated>
       <workItem from="1647205117136" duration="13802000" />
       <workItem from="1647254390015" duration="2768000" />
-      <workItem from="1647434202982" duration="5892000" />
+      <workItem from="1647434202982" duration="11798000" />
+      <workItem from="1647608556837" duration="4588000" />
     </task>
     <servers />
   </component>
